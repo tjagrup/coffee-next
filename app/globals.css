@@ -1,26 +1,89 @@
 @import "tailwindcss";
 
+/* ─── Base variables ─────────────────────────────────────────────────────── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #F5F0E8;
+  --foreground: #1C1009;
 }
 
+/* ─── Tailwind v4 Design Tokens ───────────────────────────────────────────── */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Brand: Cream */
+  --color-cream:       #F5F0E8;
+  --color-cream-light: #FDFAF5;
+  --color-cream-dark:  #EAE0D0;
+
+  /* Coffee Darks */
+  --color-espresso: #1C1009;
+  --color-bark:     #4A2C1C;
+  --color-mocha:    #7A4E35;
+  --color-latte:    #B8896A;
+
+  /* Accent: Coral */
+  --color-coral:       #E07A5F;
+  --color-coral-light: #EDAA96;
+  --color-coral-dark:  #C45A42;
+
+  /* Accent: Amber */
+  --color-amber:       #D4A574;
+  --color-amber-light: #E8C8A0;
+  --color-amber-dark:  #B07A46;
+
+  /* Accent: Rose */
+  --color-rose:       #C97D9A;
+  --color-rose-light: #DFA5C2;
+  --color-rose-dark:  #A0587A;
+
+  /* Accent: Sage */
+  --color-sage:       #7FAF8E;
+  --color-sage-light: #A8D0B8;
+  --color-sage-dark:  #5A8A6E;
+
+  /* Stone Neutrals */
+  --color-stone-50:  #FDFAF7;
+  --color-stone-100: #F5F0E8;
+  --color-stone-200: #EAE0D0;
+  --color-stone-300: #D5C4AE;
+  --color-stone-400: #B09880;
+  --color-stone-500: #8A7060;
+  --color-stone-600: #665248;
+  --color-stone-700: #4A3830;
+  --color-stone-800: #2E2018;
+  --color-stone-900: #1C1009;
+
+  /* Typography */
+  --font-display: var(--font-fraunces);
+  --font-body:    var(--font-dm-sans);
+  --font-mono:    var(--font-geist-mono);
+
+  /* Border Radius */
+  --radius-pill:  9999px;
+  --radius-card:  1.5rem;
+  --radius-badge: 0.75rem;
+
+  /* Shadows */
+  --shadow-warm:    0 4px 24px -4px rgba(28, 16, 9, 0.12);
+  --shadow-warm-lg: 0 12px 40px -8px rgba(28, 16, 9, 0.18);
+  --shadow-card:    0 2px 12px rgba(28, 16, 9, 0.08), 0 1px 4px rgba(28, 16, 9, 0.06);
+
+  /* Easing */
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Z-index */
+  --z-nav:   100;
+  --z-modal: 200;
+  --z-toast: 300;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* ─── Base Styles ────────────────────────────────────────────────────────── */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
