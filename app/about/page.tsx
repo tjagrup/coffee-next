@@ -46,7 +46,7 @@ export default function AboutPage() {
       <section className="relative h-[65vh] min-h-[420px] flex items-end overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.pexels.com/photos/2775827/pexels-photo-2775827.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="/images/2775827-hero.webp"
             alt="Barista at Coffee Extra Co."
             fill
             sizes="100vw"
@@ -88,7 +88,7 @@ export default function AboutPage() {
 
           <div className="relative h-96 md:h-[480px] rounded-card overflow-hidden shadow-warm-lg">
             <Image
-              src="https://images.pexels.com/photos/2159156/pexels-photo-2159156.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/images/2159156-card.webp"
               alt="Espresso preparation at Coffee Extra Co."
               fill
               sizes="(min-width: 768px) 50vw, 100vw"
@@ -118,7 +118,7 @@ export default function AboutPage() {
               >
                 <div className="relative h-80">
                   <Image
-                    src={`https://images.pexels.com/photos/${founder.imageId}/pexels-photo-${founder.imageId}.jpeg?auto=compress&cs=tinysrgb&w=800`}
+                    src={`/images/${founder.imageId}-card.webp`}
                     alt={founder.name}
                     fill
                     sizes="(min-width: 768px) 50vw, 100vw"

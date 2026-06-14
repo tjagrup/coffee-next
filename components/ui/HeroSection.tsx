@@ -13,7 +13,7 @@ export function HeroSection() {
         {/* Background image */}
         <div className="absolute inset-0">
           <Image
-            src="https://images.pexels.com/photos/1235706/pexels-photo-1235706.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="/images/1235706-hero.webp"
             alt="Rich dark coffee being poured — Coffee Extra Co."
             fill
             sizes="100vw"

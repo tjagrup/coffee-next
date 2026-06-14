@@ -16,7 +16,7 @@ const badgeColors: Record<string, string> = {
 };
 
 export function MenuCard({ name, description, price, badge, imageId }: MenuCardProps) {
-  const src = `https://images.pexels.com/photos/${imageId}/pexels-photo-${imageId}.jpeg?auto=compress&cs=tinysrgb&w=600`;
+  const src = `/images/${imageId}-card.webp`;
 
   return (
     <article className="group bg-cream-light rounded-card overflow-hidden shadow-card hover:shadow-warm-lg transition-all duration-300 hover:-translate-y-1">
