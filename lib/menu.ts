@@ -62,7 +62,7 @@ export const menuItems: MenuItem[] = [
     description: "A double ristretto pulled tight over a thin ribbon of silky steamed whole milk.",
     price: 5.00,
     badge: "House Favorite",
-    imageId: 9249368,   // ✓ overhead latte art cup (414605 was corrupted)
+    imageId: 312418,    // ✓ navy ceramic cup with tulip latte art
   },
   {
     category: "Espresso Drinks",
@@ -77,7 +77,7 @@ export const menuItems: MenuItem[] = [
     description: "Two shots of espresso with generous steamed milk and a delicate layer of foam.",
     price: 5.25,
     badge: "Popular",
-    imageId: 2396220,   // ✓ coffee cup (6867 was 404)
+    imageId: 585753,    // ✓ white mug with coffee beans on dark wood
   },
   {
     category: "Espresso Drinks",
@@ -125,14 +125,14 @@ export const menuItems: MenuItem[] = [
     description: "A layered espresso macchiato with cardamom simple syrup and a touch of rosewater.",
     price: 6.00,
     badge: "House Favorite",
-    imageId: 12703064,  // ✓ overhead coffee cup
+    imageId: 373639,    // ✓ barista holding small latte art cup
   },
   {
     category: "Espresso Drinks",
     name: "Hazelnut Cortado",
     description: "Our cortado finished with a small pour of house-toasted hazelnut syrup.",
     price: 5.25,
-    imageId: 2074127,   // ✓ milk in coffee
+    imageId: 324028,    // ✓ espresso machine with two cups on drip tray
   },
   {
     category: "Espresso Drinks",
@@ -140,7 +140,7 @@ export const menuItems: MenuItem[] = [
     description: "A double shot of espresso poured into a spiced masala chai with steamed oat milk.",
     price: 6.50,
     badge: "Popular",
-    imageId: 6205779,   // ✓ latte art (6867 was 404)
+    imageId: 6802983,   // ✓ milky coffee in grey mug, cosy table setting
   },
 
   // ── Cold Drinks ────────────────────────────────────────────────────────
@@ -197,7 +197,7 @@ export const menuItems: MenuItem[] = [
     description: "Espresso shaken over ice with brown sugar syrup and cinnamon — poured over oat milk.",
     price: 6.50,
     badge: "New",
-    imageId: 11100423,  // ✓ iced coffee in glass (6457461 was corrupted)
+    imageId: 5946967,   // ✓ hand stirring layered iced coffee with black straw
   },
   {
     category: "Cold Drinks",
@@ -214,7 +214,7 @@ export const menuItems: MenuItem[] = [
     description: "Cold brew topped with sparkling water and a long twist of orange peel.",
     price: 5.75,
     badge: "Seasonal",
-    imageId: 10738363,  // ✓ cold drink glass (29684376 was corrupted)
+    imageId: 4051215,   // ✓ lime and mint iced drinks with crushed ice
   },
   {
     category: "Cold Drinks",
@@ -238,7 +238,7 @@ export const menuItems: MenuItem[] = [
     description: "Tropical mango and passionfruit purée topped with sparkling water and mint.",
     price: 5.50,
     badge: "Seasonal",
-    imageId: 34170574,  // ✓ iced coffee/drink (32695045 was corrupted)
+    imageId: 1337825,   // ✓ vibrant tropical fruit drink in clear glass
   },
 
   // ── Loose Leaf Tea ─────────────────────────────────────────────────────
@@ -280,7 +280,7 @@ export const menuItems: MenuItem[] = [
     name: "Chamomile Honey",
     description: "Egyptian chamomile flowers with a golden honey finish — our most calming cup.",
     price: 4.25,
-    imageId: 7364044,   // ✓ woman pouring tea
+    imageId: 1793034,   // ✓ rustic mug with dried chamomile flowers
   },
   {
     category: "Loose Leaf Tea",
@@ -288,7 +288,7 @@ export const menuItems: MenuItem[] = [
     description: "A creamy Taiwanese-style oolong steeped strong and served with warm milk on the side.",
     price: 5.50,
     badge: "New",
-    imageId: 19880782,  // ✓ tea pot and cups
+    imageId: 5946965,   // ✓ milk being poured into iced tea glass
   },
   {
     category: "Loose Leaf Tea",
@@ -296,7 +296,7 @@ export const menuItems: MenuItem[] = [
     description: "South African rooibos blended with warming chai spices and a whisper of vanilla.",
     price: 4.75,
     badge: "Popular",
-    imageId: 6660468,   // ✓ woman with kettle
+    imageId: 1187317,   // ✓ red ceramic cup with warm amber tea
   },
   {
     category: "Loose Leaf Tea",
@@ -304,14 +304,14 @@ export const menuItems: MenuItem[] = [
     description: "Tart hibiscus flowers with dried blueberry and rose hip — vibrant ruby red, caffeine-free.",
     price: 4.50,
     badge: "Seasonal",
-    imageId: 34178500,  // ✓ dried flowers for herbal tea
+    imageId: 1417945,   // ✓ clear glass cup of herbal tea with leaf garnish
   },
   {
     category: "Loose Leaf Tea",
     name: "Sencha Morning",
     description: "A grassy Japanese green tea with a clean umami depth — served in a small glass teapot.",
     price: 4.75,
-    imageId: 34178500,  // ✓ herbs/tea (7525675 was corrupted)
+    imageId: 5946971,   // ✓ iced matcha green latte in tall glass
   },
   {
     category: "Loose Leaf Tea",
@@ -319,7 +319,7 @@ export const menuItems: MenuItem[] = [
     description: "Invigorating blend of lemon myrtle, ginger root, and turmeric — naturally anti-inflammatory.",
     price: 4.75,
     badge: "New",
-    imageId: 6660468,   // ✓ kettle and tea
+    imageId: 6157049,   // ✓ loose-leaf tea in white mug, earthy tones
   },
   {
     category: "Loose Leaf Tea",
@@ -327,7 +327,7 @@ export const menuItems: MenuItem[] = [
     description: "Delicately sweet whole-leaf white tea with a honeysuckle finish — rare and unhurried.",
     price: 6.00,
     badge: "House Favorite",
-    imageId: 7364044,   // ✓ woman pouring tea
+    imageId: 2074130,   // ✓ overhead cafe table with multiple tea cups
   },
 
   // ── Pastries ───────────────────────────────────────────────────────────
@@ -408,7 +408,7 @@ export const menuItems: MenuItem[] = [
     name: "Banana Walnut Bread",
     description: "Moist one-banana loaf with toasted walnuts and a dark caramel crumb top.",
     price: 3.50,
-    imageId: 2668512,   // ✓ baked goods on plate
+    imageId: 1775035,   // ✓ rustic seeded loaf on light background
   },
   {
     category: "Pastries",
@@ -416,7 +416,7 @@ export const menuItems: MenuItem[] = [
     description: "A thick chewy cookie with earthy tahini and Guittard chocolate chips — sprinkled with flaked salt.",
     price: 4.25,
     badge: "New",
-    imageId: 1775034,   // ✓ pastries on plates
+    imageId: 2067396,   // ✓ stack of dark chocolate brownies on wooden board
   },
   {
     category: "Pastries",
@@ -474,7 +474,7 @@ export const menuItems: MenuItem[] = [
     description: "Three-cheese blend on thick pullman bread griddled in butter — served with a small cup of roasted tomato soup.",
     price: 12.00,
     badge: "Popular",
-    imageId: 17498978,  // ✓ sandwich
+    imageId: 3616952,   // ✓ bowl of tomato soup with toast on the side
   },
   {
     category: "Sandwiches",
@@ -490,14 +490,14 @@ export const menuItems: MenuItem[] = [
     description: "A fluffy folded egg and aged white cheddar tucked into a warm butter croissant with chives.",
     price: 10.50,
     badge: "Popular",
-    imageId: 4109507,   // ✓ breakfast plate with egg
+    imageId: 4397295,   // ✓ toast with poached egg and microgreens on ceramic plate
   },
   {
     category: "Sandwiches",
     name: "BLT on Sourdough",
     description: "Thick-cut applewood smoked bacon, heirloom tomato, butter lettuce, and lemon aioli on toasted sourdough.",
     price: 12.50,
-    imageId: 824635,    // ✓ bread and food
+    imageId: 461382,    // ✓ deli sandwich with tomato and lettuce on sesame roll
   },
   {
     category: "Sandwiches",
