@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Fraunces, DM_Sans, Geist_Mono } from "next/font/google";
+import Link from "next/link";
 import "./globals.css";
 import { Navigation } from "@/components/ui/Navigation";
 import { ReserveButton } from "@/components/ui/ReserveButton";
@@ -85,7 +86,7 @@ export default function RootLayout({
 
             <div className="pt-8 border-t border-cream/10 flex flex-col sm:flex-row items-center justify-between gap-4">
               <div className="flex items-center gap-6">
-                <a href="/" className="font-body text-xs text-cream/40 hover:text-cream/70 transition-colors">Home</a>
+                <Link href="/" className="font-body text-xs text-cream/40 hover:text-cream/70 transition-colors">Home</Link>
                 <a href="/menu" className="font-body text-xs text-cream/40 hover:text-cream/70 transition-colors">Menu</a>
                 <a href="/about" className="font-body text-xs text-cream/40 hover:text-cream/70 transition-colors">About</a>
               </div>

@@ -45,7 +45,7 @@ export const menuItems: MenuItem[] = [
     name: "Americano",
     description: "Two shots of espresso stretched with hot water to reveal the full complexity of the bean.",
     price: 4.00,
-    imageId: 186860,    // ✓ coffee in cup
+    imageId: 1235706,   // ✓ dark dramatic coffee pour into cup
   },
   {
     category: "Espresso Drinks",
@@ -77,7 +77,7 @@ export const menuItems: MenuItem[] = [
     description: "Two shots of espresso with generous steamed milk and a delicate layer of foam.",
     price: 5.25,
     badge: "Popular",
-    imageId: 3401403,   // ✓ overhead latte with round latte art and coffee beans
+    imageId: 2159156,   // ✓ barista pouring latte art
   },
   {
     category: "Espresso Drinks",
@@ -93,7 +93,7 @@ export const menuItems: MenuItem[] = [
     description: "Espresso and steamed milk swirled with house-made caramel sauce and a torched sugar top.",
     price: 6.25,
     badge: "Seasonal",
-    imageId: 34170574,  // ✓ iced caramel latte (3762969 removed from Pexels)
+    imageId: 2775827,   // ✓ barista at La Marzocca espresso machine
   },
   {
     category: "Espresso Drinks",
@@ -167,21 +167,21 @@ export const menuItems: MenuItem[] = [
     description: "Double espresso over ice with cold milk — simple and refreshing.",
     price: 5.25,
     badge: "Popular",
-    imageId: 2531183,   // ✓ iced latte on wooden tray with espresso shot glass
+    imageId: 8605616,   // ✓ overhead creamy iced coffee with ice
   },
   {
     category: "Cold Drinks",
     name: "Iced Vanilla Latte",
     description: "Iced latte sweetened with real vanilla bean syrup and poured over hand-cracked ice.",
     price: 5.75,
-    imageId: 2396219,   // ✓ iced coffee drinks on table
+    imageId: 34170574,  // ✓ iced coffee pitcher
   },
   {
     category: "Cold Drinks",
     name: "Iced Mocha",
     description: "Espresso and Valrhona chocolate over ice with cold whole milk and a float of cream.",
     price: 6.00,
-    imageId: 8605616,   // ✓ coffee with ice in glass
+    imageId: 10738363,  // ✓ layered iced coffee in glass
   },
   {
     category: "Cold Drinks",
@@ -214,7 +214,7 @@ export const menuItems: MenuItem[] = [
     description: "Cold brew topped with sparkling water and a long twist of orange peel.",
     price: 5.75,
     badge: "Seasonal",
-    imageId: 1028637,   // ✓ sparkling drinks being poured, citrus garnish
+    imageId: 24039577,  // ✓ iced coffee with orange juice — sparkling citrus cold brew
   },
   {
     category: "Cold Drinks",
@@ -222,7 +222,7 @@ export const menuItems: MenuItem[] = [
     description: "House-brewed hibiscus tea shaken with fresh lemon juice and a touch of honey.",
     price: 4.75,
     badge: "Popular",
-    imageId: 1005638,   // ✓ teacup with white flowers, floral herbal atmosphere
+    imageId: 1417945,   // ✓ clear glass of herbal drink with leaf garnish
   },
   {
     category: "Cold Drinks",
@@ -230,7 +230,7 @@ export const menuItems: MenuItem[] = [
     description: "Muddled strawberry and fresh basil stirred with sparkling water and a splash of lime.",
     price: 5.50,
     badge: "New",
-    imageId: 4553031,   // ✓ colorful berry smoothie with red fruity drink
+    imageId: 102444,    // ✓ strawberry sparkling water with mint in mason jar
   },
   {
     category: "Cold Drinks",
@@ -238,7 +238,7 @@ export const menuItems: MenuItem[] = [
     description: "Tropical mango and passionfruit purée topped with sparkling water and mint.",
     price: 5.50,
     badge: "Seasonal",
-    imageId: 4553031,   // ✓ colorful berry drink (6707943 removed from Pexels)
+    imageId: 5817518,   // ✓ mango passionfruit cocktail with mint
   },
 
   // ── Loose Leaf Tea ─────────────────────────────────────────────────────
@@ -257,7 +257,7 @@ export const menuItems: MenuItem[] = [
     description: "A robust full-bodied blend of Assam and Ceylon leaves — made for mornings.",
     price: 4.00,
     badge: "Popular",
-    imageId: 1291712,   // ✓ glass teapot and china teacup in atmospheric tea room
+    imageId: 1187317,   // ✓ red ceramic cup with warm tea — classic English breakfast
   },
   {
     category: "Loose Leaf Tea",
@@ -296,7 +296,7 @@ export const menuItems: MenuItem[] = [
     description: "South African rooibos blended with warming chai spices and a whisper of vanilla.",
     price: 4.75,
     badge: "Popular",
-    imageId: 1187317,   // ✓ red ceramic cup with warm amber tea
+    imageId: 1793034,   // ✓ mug with dried herbs and flowers
   },
   {
     category: "Loose Leaf Tea",
@@ -319,7 +319,7 @@ export const menuItems: MenuItem[] = [
     description: "Invigorating blend of lemon myrtle, ginger root, and turmeric — naturally anti-inflammatory.",
     price: 4.75,
     badge: "New",
-    imageId: 6157049,   // ✓ loose-leaf tea in white mug, earthy tones
+    imageId: 34178500,  // ✓ dried botanical herbs and flowers
   },
   {
     category: "Loose Leaf Tea",
@@ -386,7 +386,7 @@ export const menuItems: MenuItem[] = [
     name: "Double Chocolate Muffin",
     description: "Deep dark cocoa batter studded with Valrhona chocolate chips — rich without being sweet.",
     price: 3.75,
-    imageId: 8174342,   // ✓ rich chocolate cake with berries and caramel
+    imageId: 1775034,   // ✓ powdered pastry baked good
   },
   {
     category: "Pastries",
@@ -401,7 +401,7 @@ export const menuItems: MenuItem[] = [
     name: "Lemon Poppy Seed Scone",
     description: "A tender triangular scone with lemon zest throughout and a drizzled lemon icing.",
     price: 3.75,
-    imageId: 1775034,   // ✓ pastries on plates
+    imageId: 20179572,  // ✓ sugared pastries on a tray
   },
   {
     category: "Pastries",
@@ -416,7 +416,7 @@ export const menuItems: MenuItem[] = [
     description: "A thick chewy cookie with earthy tahini and Guittard chocolate chips — sprinkled with flaked salt.",
     price: 4.25,
     badge: "New",
-    imageId: 4397292,   // ✓ dark chocolate chunks and raspberries
+    imageId: 13119734,  // ✓ pastry at coffee counter
   },
   {
     category: "Pastries",
@@ -424,7 +424,7 @@ export const menuItems: MenuItem[] = [
     description: "A small French almond-butter cake with pistachio paste and a rosewater glaze.",
     price: 4.50,
     badge: "Seasonal",
-    imageId: 13119734,  // ✓ pastry with coffee (4279 was 404)
+    imageId: 29156078,  // ✓ elegant pastry at cafe
   },
 
   // ── Sandwiches ─────────────────────────────────────────────────────────
@@ -458,7 +458,7 @@ export const menuItems: MenuItem[] = [
     name: "Caprese Ciabatta",
     description: "Fresh mozzarella, ripe heirloom tomato, and fresh basil with a basil pesto and balsamic glaze on ciabatta.",
     price: 11.50,
-    imageId: 1279330,   // ✓ pasta with cherry tomatoes, mozzarella, basil (caprese ingredients)
+    imageId: 30925490,  // ✓ caprese sandwich on ciabatta with mozzarella, tomato, lettuce
   },
   {
     category: "Sandwiches",
@@ -466,7 +466,7 @@ export const menuItems: MenuItem[] = [
     description: "House flatbread with fig jam, thinly sliced prosciutto di Parma, arugula, and shaved Parmigiano.",
     price: 14.00,
     badge: "House Favorite",
-    imageId: 4109507,   // ✓ food plate (28962758 was corrupted)
+    imageId: 3616956,   // ✓ savory food on wooden board
   },
   {
     category: "Sandwiches",
@@ -474,7 +474,7 @@ export const menuItems: MenuItem[] = [
     description: "Three-cheese blend on thick pullman bread griddled in butter — served with a small cup of roasted tomato soup.",
     price: 12.00,
     badge: "Popular",
-    imageId: 699953,    // ✓ soup bowl — closest available for grilled cheese + tomato soup
+    imageId: 33706245,  // ✓ grilled cheese sandwich with tomato soup
   },
   {
     category: "Sandwiches",
@@ -497,7 +497,7 @@ export const menuItems: MenuItem[] = [
     name: "BLT on Sourdough",
     description: "Thick-cut applewood smoked bacon, heirloom tomato, butter lettuce, and lemon aioli on toasted sourdough.",
     price: 12.50,
-    imageId: 3616956,   // ✓ cheeseburger with lettuce, tomato on wooden board
+    imageId: 4109507,   // ✓ breakfast plate with bacon, tomato, and greens
   },
   {
     category: "Sandwiches",
@@ -505,6 +505,6 @@ export const menuItems: MenuItem[] = [
     description: "Sautéed wild mushrooms with caramelized onion and melted Gruyère on rye — pressed until golden.",
     price: 12.00,
     badge: "House Favorite",
-    imageId: 3184183,   // ✓ overhead table with savory food plates
+    imageId: 13427800,  // ✓ toasted bread with mushrooms and melted cheese
   },
 ];
