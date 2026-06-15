@@ -3,7 +3,7 @@ import Image from "next/image";
 export const metadata = {
   title: "Our Story — Coffee Extra Co.",
   description:
-    "Meet Maya Chen and Oliver Webb — the two people who left their old lives behind to build the neighbourhood coffee house they always wanted.",
+    "Meet Maya Chen and Jags — the two people who left their old lives behind to build the neighbourhood coffee house they always wanted.",
 };
 
 const founders = [
@@ -14,9 +14,9 @@ const founders = [
     imageId: 10375824,
   },
   {
-    name: "Oliver Webb",
+    name: "Jags",
     role: "Head of Food & Co-founder",
-    bio: "Oliver has been in professional kitchens since the age of 17. After working his way up to sous chef at a Tribeca restaurant, he realised he didn't want to cook for people — he wanted to cook for his neighbours. He oversees our entire food programme, works closely with local suppliers, and still bakes the morning pastries himself most days.",
+    bio: "Jags has been in professional kitchens since the age of 17. After working his way up to sous chef at a Tribeca restaurant, he realised he didn't want to cook for people — he wanted to cook for his neighbours. He oversees our entire food programme, works closely with local suppliers, and still bakes the morning pastries himself most days.",
     imageId: 18799034,
   },
 ];
@@ -76,7 +76,7 @@ export default function AboutPage() {
               A coffee shop born from a neighbourhood that deserved better.
             </h2>
             <p className="font-body text-base text-stone-600 leading-relaxed mb-4">
-              Maya and Oliver met in 2018 while working at the same specialty roastery in Williamsburg. They had both come to New York from very different worlds — Maya from Australia&apos;s coffee scene, Oliver from the high-pressure kitchens of Tribeca — but they shared the same restlessness: a sense that the city&apos;s coffee shops had become too transactional. People in, people out. No names remembered. No lingering.
+              Maya and Jags met in 2018 while working at the same specialty roastery in Williamsburg. They had both come to New York from very different worlds — Maya from Australia&apos;s coffee scene, Jags from the high-pressure kitchens of Tribeca — but they shared the same restlessness: a sense that the city&apos;s coffee shops had become too transactional. People in, people out. No names remembered. No lingering.
             </p>
             <p className="font-body text-base text-stone-600 leading-relaxed mb-4">
               They spent two years talking about what they&apos;d do differently. Then they found this space — a sun-filled corner unit on Bedford Street that had sat empty for three years. They stripped it back to the original brickwork, sourced a second-hand La Marzocca espresso machine from a closing café in Portland, and opened on a cold Thursday morning in March 2021.

@@ -16,7 +16,7 @@ IMAGE_IDS = sorted(set([
     2775827,   # About page hero
     2159156,   # About origin story section
     10375824,  # Founder: Maya Chen
-    18799034,  # Founder: Oliver Webb
+    18799034,  # Founder: Jags
     # Category thumbnail (categoryImages in menu.ts)
     7364044,   # Loose Leaf Tea category image
     # Espresso Drinks
