@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import type { ReactNode } from "react";
 
 interface NavItem {
@@ -28,12 +29,12 @@ export function Navigation({
     <header className="sticky top-0 z-[100] bg-cream/90 backdrop-blur-sm border-b border-cream-dark">
       <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between gap-8">
         <div className="flex-shrink-0">
-          <a
+          <Link
             href="/"
             className="font-display text-xl font-bold text-espresso select-none hover:text-bark transition-colors duration-200"
           >
             {logo ?? <span>Coffee Extra Co.</span>}
-          </a>
+          </Link>
         </div>
 
         <ul className="hidden md:flex items-center gap-6 list-none m-0 p-0">
